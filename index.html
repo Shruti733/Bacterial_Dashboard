@@ -7,9 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+  .jumbotron {
+    background-image: url("download.jpg");
+    background-size: cover;
+  }
+  
+</style>
 </head>
 
-<body>
+<body style="background-color:blanchedalmond">
 
   <div class="container">
     <div class="row">
@@ -34,14 +41,17 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+          <p style="text-align:center"><b>Horizontal bar chart that displays the top 10 bacterial species</b></p>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+          <p style="text-align:center"><b>Gauge chart that displays the weekly washing frequency's value</b></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+          <p style="text-align:center"><b>Bubble chart that displays bacteria cultures per sample</b></p>
       </div>
     </div>
   </div>
@@ -49,6 +59,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="plots.js"></script>
+  <script src="charts.js"></script>
 
 </body>
 
